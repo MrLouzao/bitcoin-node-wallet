@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin-wallet-generation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "btc-wallet-ecdsa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "crypto": "^1.0.1",
+    "ecdsa": "^0.7.0",
+    "elliptic": "^6.4.1",
+    "js-sha256": "^0.9.0",
+    "ripemd160": "^2.0.2",
+    "secp256k1": "^3.7.0",
+    "secure-random": "^1.1.2"
+  }
+}
